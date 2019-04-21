@@ -9,7 +9,9 @@ if [ "$#" -ne 1 ]; then
     exit 1
 fi
 
-bash setup_compile_commands.sh
+git clone https://github.com/lianghongkey/Bazel_and_CompileCommands.git ../Bazel_and_CompileCommands
+
+bash ../Bazel_and_CompileCommands/setup_compile_commands.sh -f
 
 bazel build --experimental_action_listener=//tools/actions:generate_compile_commands_listener $1
 python3 ./tools/actions/generate_compile_commands_json.py
