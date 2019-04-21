@@ -2,14 +2,14 @@
 set -e
 
 echo "1 Must run in your project root"
-echo "2 installed python3"
+echo "2 installed python3   protoc > 3.0"
 
 if [ "$#" -ne 1 ]; then
     echo "Usage: $(basename $0) BAZEL_TARGET"
     exit 1
 fi
 
-git clone https://github.com/lianghongkey/Bazel_and_CompileCommands.git ../Bazel_and_CompileCommands
+#git clone https://github.com/lianghongkey/Bazel_and_CompileCommands.git ../Bazel_and_CompileCommands
 
 bash ../Bazel_and_CompileCommands/setup_compile_commands.sh -f
 
