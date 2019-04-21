@@ -12,6 +12,10 @@
 
 2 must install python3  protoc>3.0
 
+Run in the root of project:
+git clone https://github.com/lianghongkey/Bazel_and_CompileCommands.git ../Bazel_and_CompileCommands
+./Bazel_and_CompileCommands/OnekeyGen.sh
+
 
 * Aims
 
