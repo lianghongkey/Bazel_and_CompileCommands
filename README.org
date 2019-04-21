@@ -16,7 +16,7 @@ Run in the root of project:
 
 
 git clone https://github.com/lianghongkey/Bazel_and_CompileCommands.git ../Bazel_and_CompileCommands
-./Bazel_and_CompileCommands/OnekeyGen.sh
+./Bazel_and_CompileCommands/OnekeyGen.sh  //tensorflow:all
 
 
 * Aims
