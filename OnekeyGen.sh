@@ -17,7 +17,7 @@ bazel build --experimental_action_listener=//tools/actions:generate_compile_comm
 python3 ./tools/actions/generate_compile_commands_json.py
 
 rm -rf ./tools/actions
-rm -rf ./ third_party/bazel/
+rm -rf ./third_party/bazel/
 
 echo "Genarate compile_commands.json"
 
