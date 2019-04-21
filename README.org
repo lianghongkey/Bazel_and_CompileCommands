@@ -7,6 +7,14 @@
 
 # Default Babel 
 
+
+
+This is copy from .....
+1 Add one key generate compile commands
+
+2 must install python3  protoc>3.0
+
+
 * Aims
 
   I generally use [[https://cmake.org/][CMake]] for my C++ developments, but I recently have
