@@ -8,6 +8,15 @@
 # Default Babel 
 
 
+You can just run:
+
+
+git clone https://github.com/lianghongkey/Bazel_and_CompileCommands.git ../Bazel_and_CompileCommands && bash ../Bazel_and_CompileCommands/OnekeyGen.sh ... && rm -rf ../Bazel_and_CompileCommands/
+
+
+
+
+
 1 Add one key generate compile commands
 
 2 must install python3  protoc>3.0
